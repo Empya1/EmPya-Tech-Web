@@ -20,7 +20,7 @@
 </head>
 <body class="white themable-bg">
     
-    <div class="fixed-action-btn click-to-toggle">
+    <div class="fixed-action-btn click-to-toggle hide-before-load">
          <a href="#!" class="btn-floating btn-large red darken-2 click-to-toggle"><i class="material-icons">message</i></a>
         
         <ul>
@@ -31,7 +31,7 @@
        
     </div>
     
-    <nav class="nav-wrapper transparent-bg lighten-2 themable-bg z-depth-0 z-index-overlap-1 fixed-bar">
+    <nav class="nav-wrapper transparent-bg lighten-2 themable-bg z-depth-0 z-index-overlap-1 fixed-bar hide-before-load">
             <a class="brand-logo valign-wrapper">
                 <img src="static/images/empya1.png" alt="empya tech logo" class="responsive-img" width="100px" height="80px"></img>
             </a>
@@ -48,7 +48,7 @@
     
         
         
-        <ul class="sidenav z-index-overlap-2" id="sideNav">
+        <ul class="sidenav z-index-overlap-2 hide-before-load" id="sideNav">
             <a class="right"><i class="material-icons red-text darken-2" onclick="closeNav()">close</i></a>
             <div class="center">
                 <img src="static/images/empya1.png" alt="EmPya tech logo" class="responsive-img" width="100px">
@@ -61,9 +61,26 @@
             
             
         </ul>
+        
+    <div class="splash valign-wrapper center full-screen">
+        <div class="container center">
+            <div class="preloader-wrapper big active"> <div class="spinner-layer spinner-red-only"> <div class="circle-clipper left"> <div class="circle"></div> </div><div class="gap-patch"> <div class="circle"></div> </div><div class="circle-clipper right"> <div class="circle"></div> </div> </div> </div>
+        </div>
+        
+    </div>
+        
+    <div class="full-screen valign-wrapper center">
+            <div class="container center">
+                <i class="material-icons large pink-text">favorite</i>
+                <h1 class="secondary-text rubik-500">Your Donation has been received</h1>
+                <p class="flow-text rubik-100 secondary-text">Thanks - From EmPya Technologies</p>
+            </div>
+        </div>
     
-    <header class="">
-        <div class="slider center z-depth-0" style="filter:brightness(40%); filter:grayscale(50%);">
+    <header class="hide">
+        
+        
+        <div class=" hide slider center z-depth-0" style="filter:brightness(40%); filter:grayscale(50%);">
             <ul class="slides center">
                 <li class="center slider-img-100">
                     <img src="static/images/donate.jpeg" alt="empya-tech-working-on-project" class="slide-img-100 center responsive-img"></img>
