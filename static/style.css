@@ -4,6 +4,14 @@ html, body {
     padding: 0;
 }
 
+.hide-before-load {
+    display: none;
+}
+
+.full-screen {
+    width:100vw;
+    height: 100vh;
+}
 .header-content{
     padding:2rem;
 }
