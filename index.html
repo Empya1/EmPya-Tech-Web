@@ -17,10 +17,19 @@
  
     <title>EmPya Tech - Building with code blocks</title>
 </head>
-<body class="themable-bg">
+<body class="themable-bg" style="">
     
-    <div class="fixed-action-btn click-to-toggle">
+    <div class="splash valign-wrapper center full-screen">
+        <div class="container center">
+            <div class="preloader-wrapper big active"> <div class="spinner-layer spinner-red-only"> <div class="circle-clipper left"> <div class="circle"></div> </div><div class="gap-patch"> <div class="circle"></div> </div><div class="circle-clipper right"> <div class="circle"></div> </div> </div> </div>
+        </div>
+        
+    </div>
+  
+    <div class="fixed-action-btn click-to-toggle hide-before-load">
          <a class="btn-floating btn-large red darken-2 click-to-toggle pulse"><i class="material-icons">message</i></a>
+         
+    
         
         <ul>
             <li><a href="mailto:empyatech@gmail.com" class="btn-floating white darken-2"><i class="material-icons red-text darken-5">mail_outline</i></a></li>
@@ -30,7 +39,7 @@
        
     </div>
     
-    <nav class="nav-wrapper transparent-bg lighten-2 themable-bg z-depth-0 z-index-overlap-1 fixed-bar">
+    <nav class="nav-wrapper transparent-bg lighten-2 themable-bg z-depth-0 z-index-overlap-1 fixed-bar hide-before-load">
             <a class="brand-logo valign-wrapper">
                 <img src="static/images/empya1.png" alt="empya tech logo" class="responsive-img" width="100px" height="80px"></img>
             </a>
@@ -47,7 +56,7 @@
     
         
         
-        <ul class="sidenav z-index-overlap-2" id="sideNav">
+        <ul class="sidenav z-index-overlap-2 hide-before-load" id="sideNav">
             <a class="right"><i class="material-icons red-text darken-2" onclick="closeNav()">close</i></a>
             <div class="center">
                 <img src="static/images/empya1.png" alt="EmPya tech logo" class="responsive-img" width="100px">
@@ -61,7 +70,7 @@
             
         </ul>
     
-    <header class="">
+    <header class="hide-before-load">
         <div class="slider center">
             <ul class="slides center">
                 <li class="center slider-img-100">
@@ -84,7 +93,7 @@ In today's fast-paced digital world, having a strong online presence and innovat
       
     </header>
     
-    <main>
+    <main class="hide-before-load">
         
         <div class="container">
             <div class="row">
@@ -144,7 +153,7 @@ In today's fast-paced digital world, having a strong online presence and innovat
         
     </main>
     
-    <footer>
+    <footer class="hide-before-load">
         <div class="container">
             <div class="row">
                 <div class="col s12 m6 center slide-in-anim">
